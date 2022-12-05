@@ -20,10 +20,10 @@ Product.belongsToMany(Tag, {
 
 Tag.belongsToMany(Product, {
   through: {
-    model: 'ProductTag',
+    model: ProductTag,
     unique: false,
   },
-  as: 'tagIds',
+  as: 'tagged_product',
 })
 
 module.exports = {
