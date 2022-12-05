@@ -2,6 +2,8 @@
 
 ![license badge](./Assets/license-badge.svg)
 
+- [Link to video demonstration](https://youtu.be/7guOuP4Cy3E)
+
 ## Description
 
 Given a functional Express.js API, I built upon it further by creating all the Models (using Sequelize), syncing it to a database, and creating all the missing routes. The endpoints /api/products, /api/tags, and /api/categories are responsive to all CRUD actions.
